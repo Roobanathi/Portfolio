@@ -1,5 +1,5 @@
 import React from 'react'
-// import About from '../About/About'
+
 const Navbar = () => {
   return (
     <div className='flex items-center justify-center h-20 w-screen'>
