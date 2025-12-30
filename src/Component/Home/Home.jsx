@@ -30,10 +30,10 @@ const Home = () => {
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <AiOutlineInstagram className="cursor-pointer hover:text-[#0CBBA0] transition-colors" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/Roobanathi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub className="cursor-pointer hover:text-[#0CBBA0] transition-colors" />
             </a>
-            <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" aria-label="Website">
+            <a href="https://rooban.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Website">
               <TbWorld className="cursor-pointer hover:text-[#0CBBA0] transition-colors" />
             </a>
           </div>
