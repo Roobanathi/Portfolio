@@ -43,13 +43,9 @@ const Index = () => {
   }, []);
 
   const scrollTo = (ref) => {
-    gsap.to(window, {
-      duration: 1,
-      scrollTo: {
-        y: ref.current.offsetTop,
-        autoKill: false
-      }
-    });
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
