@@ -1,5 +1,11 @@
 
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,14 +15,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #100E17;
   overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+#root {
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
 }
 /* body::-webkit-scrollbar{
   display: none;

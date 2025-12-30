@@ -40,7 +40,7 @@ const Home = () => {
         </div>
         <div className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] bg-black rounded-full flex items-center justify-center shrink-0">
           <div className=" w-[220px] h-[220px] sm:w-[270px] sm:h-[270px] md:w-[350px] md:h-[350px] bg-[#100E17] rounded-full flex items-center justify-center">
-            <img src={Profile} alt="Profile" className=" w-[85%] h-[90%] object-cover rounded-full" />
+            <img src={Profile} alt="Profile" className=" w-[85%] h-[90%] object-cover rounded-full max-w-full" />
           </div>
         </div>
       </div>

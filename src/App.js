@@ -2,7 +2,7 @@ import React from 'react'
 import Index from './Router/Index'
 const App = () => {
   return (
-    <div>
+    <div className="w-full">
       <Index/>
     </div>
   )

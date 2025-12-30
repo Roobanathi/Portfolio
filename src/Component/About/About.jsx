@@ -14,12 +14,14 @@ const About = () => {
   };
 
   return (
-    <div className=" min-h-[500px] w-full flex items-center justify-center py-10 md:py-20 px-4 sm:px-6 md:px-8">
-      <div className=" h-[100%] w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+    <div className="min-h-[500px] w-full flex items-center justify-center py-10 md:py-20 px-4 sm:px-6 md:px-8">
+      <div className="h-[100%] w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
        
-       <img className=" w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] h-auto" src={AboutBanner} alt="About Banner" />
+       <div className="w-full flex-shrink-0 md:w-auto flex items-center justify-center">
+         <img className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] h-auto object-contain" src={AboutBanner} alt="About Banner" />
+       </div>
       
-        <div className=" w-full md:w-[50%] flex flex-col justify-evenly items-center md:items-start gap-4 md:gap-6" >
+        <div className="w-full md:w-[50%] flex-shrink-0 flex flex-col justify-evenly items-center md:items-start gap-4 md:gap-6" >
           <h1 className=" text-white font-bold text-2xl md:text-3xl text-center md:text-left">About Me</h1>
           <p className=" text-white font-semibold text-sm md:text-base text-center md:text-left w-full md:w-[90%]">
             Full-Stack Developer with 2.7+ years of experience in building scalable web applications using 

@@ -142,19 +142,19 @@ const Skils = () => {
           <p className=' text-white font-bold text-2xl md:text-3xl mb-3'>Professional Skills</p>
           <div className=' w-full max-w-[400px] lg:max-w-none lg:w-[70%] h-[100%] gap-6 md:gap-8 grid grid-cols-2'>
           <div className=' w-full h-full flex items-center flex-col gap-3 md:gap-4 justify-center'>
-            <CircularProgress percentage={95} />
+            <CircularProgress percentage={90} />
             <p className=' text-white text-sm md:text-md text-center'>Communication</p>
           </div>
           <div className=' w-full h-full flex items-center flex-col gap-3 md:gap-4 justify-center'>
-            <CircularProgress percentage={90} />
+            <CircularProgress percentage={85} />
             <p className=' text-white text-sm md:text-md text-center'>Team Work</p>
           </div>
           <div className=' w-full h-full flex items-center flex-col gap-3 md:gap-4 justify-center'>
-            <CircularProgress percentage={95} />
+            <CircularProgress percentage={90} />
             <p className=' text-white text-sm md:text-md text-center'>Project Management</p>
           </div>
           <div className=' w-full h-full flex items-center flex-col gap-3 md:gap-4 justify-center'>
-            <CircularProgress percentage={95} />
+            <CircularProgress percentage={90} />
             <p className=' text-white text-sm md:text-md text-center'>Creativity</p>
           </div>
           </div>

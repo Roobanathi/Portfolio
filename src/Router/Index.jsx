@@ -49,10 +49,10 @@ const Index = () => {
   };
 
   return (
-    <div>
+    <div className="w-full">
       <Navbar sections={sections} scrollTo={scrollTo} />
       {sections.map((section, index) => (
-        <div key={index} ref={section.ref}>
+        <div key={index} ref={section.ref} className="w-full">
           {section.id === 'home' && <Home />}
           {section.id === 'about' && <About />}
           {section.id === 'whatido' && <Whatido />}
